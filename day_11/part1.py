@@ -25,7 +25,7 @@ def blink(nums: list[int]) -> list[int]:
 
 stones = parse_file()
 
-for i in range(75):
+for i in range(25):
     stones = blink(stones)
     print(f"After {i+1} blinks:")
     print(f"Number of stones = {len(stones)}\n")
